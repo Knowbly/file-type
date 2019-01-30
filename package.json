@@ -13,11 +13,10 @@
 		"node": ">=6"
 	},
 	"scripts": {
+		"build": "babel src -d build",
 		"test": "xo && ava"
 	},
-	"files": [
-		"index.js"
-	],
+	"main": "build/index.js",
 	"keywords": [
 		"mime",
 		"file",
@@ -120,6 +119,8 @@
 	],
 	"devDependencies": {
 		"ava": "^1.0.1",
+		"babel-cli": "^6.26.0",
+		"babel-preset-env": "^1.7.0",
 		"read-chunk": "^3.0.0",
 		"xo": "^0.23.0"
 	}
