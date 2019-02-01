@@ -118,10 +118,6 @@
 		"glb"
 	],
 	"devDependencies": {
-		"ava": "^1.0.1",
-		"babel-cli": "^6.26.0",
-		"babel-preset-env": "^1.7.0",
-		"read-chunk": "^3.0.0",
-		"xo": "^0.23.0"
+	
 	}
 }
